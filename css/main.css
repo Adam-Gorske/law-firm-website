@@ -93,6 +93,15 @@ nav {
 /* Header Styles END */
 
 /* Main Styles Begin */
+.welcome-card {
+    display: flex;
+    margin: 0 auto;
+}
+
+.welcome-image {
+   width: 20% 
+   height: 100%
+}
 
 /* Main Styles END */
 
@@ -142,3 +151,5 @@ footer {
 
 
 /* Footer Styles END */
+
+
