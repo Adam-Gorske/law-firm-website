@@ -47,7 +47,8 @@ body {
 
 
 .logo {
-    max-width: 12rem;
+    
+    width: 50%;
 }
 
 nav {
