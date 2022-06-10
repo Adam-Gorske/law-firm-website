@@ -22,11 +22,11 @@ h1 {
     font-size: 0.8rem;
 }
 
-ul {
+.who-we-are-list {
     padding: 0px;
 }
 
-li {
+.who-we-are-list li {
     list-style: none;
     padding-bottom: .8rem;
     font-size: .8rem;
