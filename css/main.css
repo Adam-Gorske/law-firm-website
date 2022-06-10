@@ -19,10 +19,6 @@ body {
     border: 10px double black;
 }
 
-.img-border {
-    padding: 5px 5px 0px 5px;
-    border: 1.5px solid;
-}
 
 .img-pad {
     padding: .1rem;
@@ -51,22 +47,13 @@ body {
 
 
 .logo {
-    max-width: 3.2rem;
-    padding: 2px;
-    border: 1px solid;
-}
-
-.firm-name {
-    width: 14rem;
-    font-size: 1.7rem;
-    padding-left: 0.55rem;
-    margin: 0px;
+    max-width: 12rem;
 }
 
 nav {
     border-top: 1.5px solid;
     border-bottom: 1.5px solid;
-    margin-top: 1rem;
+    margin-top: .75rem;
 }
 
 .nav-links {
@@ -79,6 +66,15 @@ nav {
     font-family: Arial, Helvetica, sans-serif;
     margin-top: .35rem;
     margin-bottom: .35rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-links a:hover {
+    font-weight: bold;
 }
 
 
