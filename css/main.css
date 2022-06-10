@@ -1,10 +1,31 @@
 
 /* Utility Styles Begin */
-.background {
-    }
+html { 
+    background: url(../images/nza_background.jpg) no-repeat center center fixed; 
+    background-size: cover;
+}
+
+body {
+    margin: 0px;
+}
 
 .wrapper {
-    margin: 0 1.8rem;
+    margin: 0 20%;
+    padding: 0 2%;
+    background: white;
+}
+
+.double-border {
+    border: 10px double black;
+}
+
+.img-border {
+    padding: 5px 5px 0px 5px;
+    border: 1.5px solid;
+}
+
+.img-pad {
+    padding: .1rem;
 }
 
 /* Utility Styles End */
@@ -12,7 +33,6 @@
 /* Header Styles Begin */
 .login {
     text-align: end;
-
 }
 
 .login-button {
@@ -24,18 +44,29 @@
     border: none;
 }
 
-.logo {
+.logo-header {
     display: flex;
+    justify-content: flex-start;
+}
+
+
+.logo {
+    max-width: 3.2rem;
+    padding: 2px;
+    border: 1px solid;
 }
 
 .firm-name {
-    width: 230px;
-    font-size: 30px;
+    width: 14rem;
+    font-size: 1.7rem;
+    padding-left: 0.55rem;
+    margin: 0px;
 }
 
 nav {
-    border-top: 1px solid;
-    border-bottom: 1px solid ;
+    border-top: 1.5px solid;
+    border-bottom: 1.5px solid;
+    margin-top: 1rem;
 }
 
 .nav-links {
@@ -46,6 +77,8 @@ nav {
     font-size: 0.6rem;
     font-weight: 500;
     font-family: Arial, Helvetica, sans-serif;
+    margin-top: .35rem;
+    margin-bottom: .35rem;
 }
 
 
