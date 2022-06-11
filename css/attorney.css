@@ -46,6 +46,9 @@
     max-width: 100%;
 }
 /* SIDEBAR STYLING END*/
+
+
+/* MAIN STYLING START */
 .page-container {
     display: flex;
     justify-content: space-between;
@@ -53,7 +56,6 @@
 }
 
 
-/* MAIN STYLING START */
 .attorneys-container {
     display: inline;
 }
