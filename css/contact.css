@@ -14,7 +14,7 @@
 }
 
 .sidebar-left-container h1 {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
 }
 
 .who-we-are-list {
@@ -25,7 +25,7 @@
 .who-we-are-list li {
     list-style: none;
     padding-bottom: .8rem;
-    font-size: .7rem;
+    font-size: .8rem;
     
 }
 
@@ -80,17 +80,16 @@
     color:#923530;
     font-family: Arial, Helvetica, sans-serif;
     height: 25rem;
-    font-size: .75rem;
+    font-size: .8rem;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .sidebar-right-container {
-    padding: .6rem;
-    margin:    
+    padding: .6rem;    
 }
 
 .sidebar-right-container h1 {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
 }
 
 .where-we-work-image {

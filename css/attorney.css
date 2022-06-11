@@ -1,5 +1,14 @@
 
-/* SIDEBAR STYLING START*/
+/* MAIN PAGE STYLING START */
+.page-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2.5%;
+}
+
+/* MAIN PAGE STYLING END */
+
+/* LEFT SIDEBAR STYLING START*/
 .sidebar {
     
     background-image: url(../images/nav_side.jpg);
@@ -26,7 +35,7 @@
 .who-we-are-list li {
     list-style: none;
     padding-bottom: .8rem;
-    font-size: .7rem;
+    font-size: .8rem;
     
 }
 
@@ -48,22 +57,41 @@
 /* SIDEBAR STYLING END*/
 
 
-/* MAIN STYLING START */
-.page-container {
+/* RIGHT CONTAINER START */
+.container-right {
+    max-width: 77%;
+    width: 100%;
+}
+
+.profile-container {
     display: flex;
-    justify-content: space-between;
-    padding-top: 2.5%;
-}
-
-
-.attorneys-container {
-    display: inline;
-}
-
-.office {
+    justify-content: flex-start;
+    margin: 1rem 1.5rem;
+    font-size: .75rem;
+    font-family: Arial, Helvetica, sans-serif;
     
 }
 
+.profile-wrap-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
 
+.profile-image p {
+    margin: .2rem
+}
 
-/* MAIN STYLING END */
+.profile-image a {
+    color: black;
+    font-weight: bold;
+}
+
+.profile-name p{
+    margin-top: 0rem;
+}
+
+.profile-name {
+    margin-left: .5rem;
+}
+/* RIGHT CONTAINER END */
