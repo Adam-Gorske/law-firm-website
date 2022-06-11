@@ -11,7 +11,9 @@
     width: 100%;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    height: 19rem;
+    height: 21rem;
+    min-width: 10rem;
+    
 }
 
 .sidebar-container {
@@ -19,18 +21,19 @@
 }
 
 .sidebar-container h1 {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
 }
 
 .who-we-are-list {
     padding: 0px;
     margin-bottom: 0px;
+    
 }
 
 .who-we-are-list li {
     list-style: none;
     padding-bottom: .8rem;
-    font-size: .7rem;
+    font-size: .8rem;
     
 }
 
@@ -60,6 +63,9 @@
 }
 
 p {margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .8rem;
+    line-height: 1.3rem;
 
 }
 
