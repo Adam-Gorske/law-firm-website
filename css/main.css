@@ -88,6 +88,10 @@ nav {
     align-items: center;}
 }
 
+@media only screen and (max-width: 768px) {
+.grey-dash {transform: rotate(90deg);}    
+}
+
 .nav-links-header a {
     text-decoration: none;
     color: black;
