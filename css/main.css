@@ -196,7 +196,7 @@ nav {
 
 @media only screen and (max-width: 800px) {
     .nav-links-footer {flex-direction: column;
-    align-items: center;}
+    align-items: center;}}
 
 .nav-links-footer a:hover {
     color:#923530;
@@ -236,5 +236,4 @@ a .copyright:hover {
 
 
 /* Footer Styles END */
-
 
