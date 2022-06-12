@@ -52,8 +52,7 @@
 
 }
 
-@media only screen and (max-width: 800px) {
-    .column-2 {max-width: 70%;}
+
 
 .where-we-work-list {
     padding: 0px;
@@ -85,11 +84,14 @@ p {margin: 0px;
     color: #CCC;
 }
 
+
 .United-States {
 padding-right: 2rem;
 width: 70%;
-
 }
+
+
+
 
 .us-bold {
     font-weight: 600;
@@ -98,13 +100,19 @@ width: 70%;
 
 .states {
 display: flex;
+}
 
+@media only screen and (max-width: 600px) {
+    .states {
+        flex-wrap: wrap;
+    }
 }
 
 .states li {
-    list-style: none;
-    
+    list-style: none; 
 }
+
+
 
 .states ul {
     padding-left: 0%;
@@ -114,6 +122,8 @@ display: flex;
     margin-top: 0px;
 }
 
+
+
 .International {
 width: 25%;
 }
@@ -122,9 +132,6 @@ width: 25%;
     font-weight: 600;
 }
 
-.countries {
-
-}
 
 .countries ul {
     padding: 0%;
