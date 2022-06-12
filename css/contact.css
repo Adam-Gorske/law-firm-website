@@ -14,7 +14,7 @@
 }
 
 .sidebar-left-container h1 {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
 }
 
 .who-we-are-list {
@@ -25,7 +25,7 @@
 .who-we-are-list li {
     list-style: none;
     padding-bottom: .8rem;
-    font-size: .7rem;
+    font-size: .8rem;
     
 }
 
@@ -46,19 +46,42 @@
 }
 /* SIDEBAR LEFT STYLING END*/
 
+/* MIDDLE CONTAINER START */
+.contact-container {
+    width: 50%;
+}
+
+.phone-image {
+    width: 100%
+}
+
+.center-text {
+    font-size: .75rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 3px;
+    line-height: 1rem;
+    font-weight:600;
+}
+
+.center-text a {
+    text-decoration: none;
+}
+
+/* MIDDLE CONTAINER END */
+
+
 
 /* SIDEBAR RIGHT START */
 .sidebar-right {
     
-    background-image: url(../images/nav_side.jpg);
-    max-width: 20%;
+    background-image: url(../images/other_links_background.jpg);
+    max-width: 16%;
     width: 100%;
-    color: white;
+    color:#923530;
     font-family: Arial, Helvetica, sans-serif;
     height: 25rem;
-    font-size: .75rem;
+    font-size: .8rem;
     font-family: Arial, Helvetica, sans-serif;
-    
 }
 
 .sidebar-right-container {
@@ -66,8 +89,17 @@
 }
 
 .sidebar-right-container h1 {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
 }
+
+.where-we-work-image {
+    max-width: 100%;
+}
+
+.suits-image {
+    max-width: 100%;
+}
+
 
 .news-text {
     font-size: .75rem;
@@ -76,14 +108,21 @@
     padding-bottom: 3px;
 }
 
-.where-we-work-container {
-
+.where-we-work-container p{
+    line-height: 1rem;
 }
+
+
 /* SIDEBAR RIGHT END */
+
+
+
 
 /* MAIN START */
 .page-container {
     display: flex;
     justify-content: space-between;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
 }
 /* MAIN END */
