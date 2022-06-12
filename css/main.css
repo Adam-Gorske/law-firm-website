@@ -17,6 +17,10 @@ body {
     box-shadow: 0px 0px 10px rgb(86, 86, 86);
 }
 
+@media only screen and (max-width: 768px) {
+    .wrapper {margin: 0px;}
+}
+
 .double-border {
     border: 10px double black;
 }
@@ -77,6 +81,11 @@ nav {
     font-family: Arial, Helvetica, sans-serif;
     margin-top: .6rem;
     margin-bottom: .6rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .nav-links-header {flex-direction: column;
+    align-items: center;}
 }
 
 .nav-links-header a {
@@ -180,6 +189,10 @@ nav {
     font-weight: bold;
 
 }
+
+@media only screen and (max-width: 768px) {
+    .nav-links-footer {flex-direction: column;
+    align-items: center;}
 
 .nav-links-footer a:hover {
     color:#923530;
