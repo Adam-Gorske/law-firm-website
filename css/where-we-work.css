@@ -52,6 +52,9 @@
 
 }
 
+@media only screen and (max-width: 800px) {
+    .column-2 {max-width: 70%;}
+
 .where-we-work-list {
     padding: 0px;
     margin-bottom: 0px;
